@@ -1,0 +1,23 @@
+:root {
+	--container-width: 1200px;
+	--container-padding: 15px;
+
+	--font-main: 'Montserrat', sans-serif;
+	--font-accent: 'FirasansBook', sans-serif;
+	--font-titles: var(--font-accent);
+
+	--page-bg: #fff;
+	--text-color: #000;
+	--accent: #ac182c;
+	--link-color: #2578c8;
+
+
+    --laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+}
+
+.dark {
+    --page-bg: #252526;
+    --text-color: #fff;
+}

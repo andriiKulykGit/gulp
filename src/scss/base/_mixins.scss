@@ -1,0 +1,11 @@
+@mixin mediaBg() {
+	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+		@content;
+	}
+}
+
+@mixin hover() {
+	@media ((hover: hover) and (pointer: fine)) {
+		@content;
+	}
+}

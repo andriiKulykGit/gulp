@@ -1,0 +1,14 @@
+.icon {
+	fill: transparent;
+	stroke: transparent;
+	width: 24px;
+	height: 24px;
+	&_test {
+		stroke: rgb(26, 134, 235);
+		transition: all 0.2s ease-in;
+
+		&:hover {
+			stroke: rgb(17, 193, 90);
+		}
+	}
+}
